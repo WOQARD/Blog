@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: none;
+    scroll-behavior: smooth;
+    scroll-padding: 9px;
+}
+html::-webkit-scrollbar {
+    background-color: black;
+    width: 2rem;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 2rem;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+html::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;;
+}
+body {
+    background-color: goldenrod;
+    height: 200vh;
+}
+
+.btn {
+    margin: 2rem;
+    padding: 2rem 3.75rem;
+    font-size: 1.7rem;
+    border-radius: 30rem;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: red;
+}
+section {
+    padding: 4rem 5%;
+}
+/*header start */
+.header .logo img {
+    height: 7em;
+}
+.header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 9%;
+    margin: 2rem 7%;
+    border-radius: 20rem;
+    box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header .navbar a {
+    margin: 0 0.7rem;
+    font-size: 1.9rem;
+    color: black;
+    border-radius: 3em;
+}
+.header .navbar a:hover {
+    background-color: red;
+    padding: 0.8em;
+}
+.butons button {
+    padding-left: 2rem;
+    font-size: 2.5rem;
+    background-color: transparent;
+    cursor: pointer;
+    color: red;
+}
+.butons button:hover {
+   
+    transform: scale(1.5);
+    transition: 0.2s;
+}
+/*header end */
+
+/*Home section start */
+.home {
+    height: 100vh;
+    background: url(../HTML/resimler/Balon-4K-UltraHD-Resimler.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -11.2rem;
+    display: flex;
+    align-items: center;
+}
+.home h3 {
+    font-size: 8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.home p {
+    font-size: 2rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.home div {
+    width: 60rem;
+    margin: 0 20%;
+}
+
+/*Home section end */
+
+/*Tebiet section start */
+#tebiet .tebiet_etiketi {
+    font-size: 7rem;
+    margin: 0  50% 2rem 40%;
+    color: white;
+    font-style: oblique;
+    display: flex;
+}
+#tebiet .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+#tebiet .box-container img {
+    width: 25rem;
+    object-fit: cover;
+    height: 25rem;
+}
+#tebiet .box-container h3 {
+    font-size: 3rem;
+}
+#tebiet .box-container p {
+width: 20rem;
+font-size: 1.5rem;
+}
+
+#tebiet .others {
+    font-size: 10rem;
+}
+.elaveler {
+    display: flex;
+    margin: 1rem 25%;
+}
+.elaveler .daha_coxu {
+    font-size: xx-large;
+    margin: 3rem 0 0 0;
+}
+/*Tebiet section end */
+
